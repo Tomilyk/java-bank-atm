@@ -10,7 +10,7 @@ public class Fibonacci {
         int t1 = 0, t2 = 1;
         System.out.print("Primeros " + n + " términos: ");
 
-        for (int i = 1; i <= n; ++i) {
+        for (int i = 0; i < n; ++i) {
             System.out.print(t1 + " ");
 
             // Calcula el siguiente término
