@@ -8,7 +8,7 @@ public class CalculadoraIDS{
         boolean exit = false;
         while (!exit) {
 
-            System.out.println("Elije una operación: ");
+            System.out.println("Elijee una operación: ");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicacion");

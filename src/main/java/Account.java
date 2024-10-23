@@ -11,14 +11,15 @@ public class Account {
         this.balance += amount;
     }
 
-    public void withdraw(double amount) throws InsufficientFundsException {
+/*    public void withdraw(double amount) throws InsufficientFundsException {
         if (amount > this.balance) {
             throw new InsufficientFundsException();
         }
         this.balance -= amount;
     }
-
+*/
     public double getBalance() {
         return balance;
     }
 }
+
